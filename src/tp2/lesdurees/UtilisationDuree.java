@@ -60,7 +60,8 @@ public class UtilisationDuree {
         System.out.print("Entrez une chaine : ");
         phrase = entree.nextLine();
         if (DureeHMS.estChaineDuree(phrase)) {
-            System.out.println("OK !!");
+            System.out.println("vous avez entré une durée de la forme"
+                    + "hh:mm:ss la chaine respecte bien le format");
         } else {
             System.out.println("ERREUR !!! ");
         }
