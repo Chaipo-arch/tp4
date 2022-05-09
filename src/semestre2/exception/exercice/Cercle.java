@@ -44,7 +44,10 @@ public class Cercle {
      * @return un double égal au volume du cylindre
      */
     public static double volume(double leDiametre, double laHauteur) {
-        return Math.PI * leDiametre * laHauteur;
+        double volume;
+        volume = (Math.PI * leDiametre * leDiametre) * 2 
+                + (laHauteur*(Math.PI*leDiametre)) ;
+        return volume;
         
     }
     
@@ -56,7 +59,8 @@ public class Cercle {
      * @return un double égal à la surface de l'enveloppe du cylindre
      */
     public static double enveloppe(double leDiametre, double laHauteur) {
-
+        surface(leDiametre/2);
+        
         /*
          * on additionne la surface de la base multipliée par 2 et la 
          * surface du pourtour du cylindre
