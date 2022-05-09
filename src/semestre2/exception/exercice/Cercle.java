@@ -54,8 +54,8 @@ public class Cercle {
     
     /**
      * Détermine la surface de l'enveloppe du cylindre
-     * @param leDiametre un double égal au diamètre du cylindre
-     * @param laHauteur un double égal à la hauteur du cylindre
+     * @param leDiametre un double égale au diamètre du cylindre
+     * @param laHauteur un double égale à la hauteur du cylindre
      * @return un double égal à la surface de l'enveloppe du cylindre
      */
     public static double enveloppe(double leDiametre, double laHauteur) {
